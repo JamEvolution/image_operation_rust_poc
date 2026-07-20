@@ -9,6 +9,10 @@ Flutter + Rust FFI Proof of Concept: decode → resize → JPEG encode using
 | Rust crate | `native_image_processor` |
 | PoC root | `image_operation_rust_poc` |
 
+## Demo
+
+https://github.com/JamEvolution/image_operation_rust_poc/raw/master/demo/poc_demo.mov
+
 ## Prerequisites
 
 ```bash
