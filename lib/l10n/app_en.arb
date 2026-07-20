@@ -1,0 +1,60 @@
+{
+  "@@locale": "en",
+  "appTitle": "image_operation_rust",
+  "appBarTitle": "image_operation_rust PoC",
+  "pickHighResPhoto": "Pick high-res photo",
+  "uiLivenessBanner": "UI liveness check: this spinner must keep rotating while Rust FFI processes the image. If it freezes, the UI thread is blocked.",
+  "originalSize": "Original size: {size} MB",
+  "@originalSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "originalResolution": "Original resolution: {width} x {height}",
+  "@originalResolution": {
+    "placeholders": {
+      "width": {
+        "type": "String"
+      },
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "processWithRustFfi": "Process with Rust FFI",
+  "processingOnRustWorker": "Processing on Rust worker…",
+  "elapsedMilliseconds": "Elapsed: {milliseconds} ms",
+  "@elapsedMilliseconds": {
+    "placeholders": {
+      "milliseconds": {
+        "type": "String"
+      }
+    }
+  },
+  "processedSize": "Processed size: {size} MB",
+  "@processedSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "outputSpec": "Output: {width}x{height} JPEG (q={quality})",
+  "@outputSpec": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      },
+      "quality": {
+        "type": "int"
+      }
+    }
+  },
+  "languageEnglish": "EN",
+  "languageTurkish": "TR"
+}

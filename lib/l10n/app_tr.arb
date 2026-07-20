@@ -1,0 +1,60 @@
+{
+  "@@locale": "tr",
+  "appTitle": "image_operation_rust",
+  "appBarTitle": "image_operation_rust PoC",
+  "pickHighResPhoto": "Yüksek çözünürlüklü fotoğraf seç",
+  "uiLivenessBanner": "UI canlılık kontrolü: Rust FFI görüntüyü işlerken bu spinner dönmeye devam etmeli. Donarsa UI thread bloklanmış demektir.",
+  "originalSize": "Orijinal boyut: {size} MB",
+  "@originalSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "originalResolution": "Orijinal çözünürlük: {width} x {height}",
+  "@originalResolution": {
+    "placeholders": {
+      "width": {
+        "type": "String"
+      },
+      "height": {
+        "type": "String"
+      }
+    }
+  },
+  "processWithRustFfi": "Rust FFI ile işle",
+  "processingOnRustWorker": "Rust worker üzerinde işleniyor…",
+  "elapsedMilliseconds": "Süre: {milliseconds} ms",
+  "@elapsedMilliseconds": {
+    "placeholders": {
+      "milliseconds": {
+        "type": "String"
+      }
+    }
+  },
+  "processedSize": "İşlenmiş boyut: {size} MB",
+  "@processedSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "outputSpec": "Çıktı: {width}x{height} JPEG (q={quality})",
+  "@outputSpec": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      },
+      "quality": {
+        "type": "int"
+      }
+    }
+  },
+  "languageEnglish": "EN",
+  "languageTurkish": "TR"
+}
